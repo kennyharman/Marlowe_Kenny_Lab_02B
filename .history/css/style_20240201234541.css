@@ -246,29 +246,6 @@ textarea {
 }
 
 /* Our Styling */
-div,
-main,
-section,
-footer,
-header {
-  outline: 1px solid #ccc;
-  min-height: 1rem;
-  padding: 1rem;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Ubuntu', sans-serif;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-}
-
 .row {
   display: grid;
   row-gap: 1rem;
@@ -279,11 +256,9 @@ p {
   background-color: rgb(242, 230, 177);
 }
 
-.header,
-.banner,
-.section {
-  margin: auto;
-  width: 65%;
+.page {
+  display: flex;
+  justify-content: center;
 }
 
 /* Small only */
