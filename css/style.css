@@ -261,6 +261,15 @@ textarea {
   .header__menu-nav {
     display: none;
   }
+  .banner {
+    display: none;
+  }
+  .affiliates {
+    display: none;
+  }
+  .misc {
+    display: none;
+  }
 }
 
 /* Medium only */
