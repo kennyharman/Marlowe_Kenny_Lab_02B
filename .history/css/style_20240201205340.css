@@ -284,11 +284,6 @@ textarea {
   .m-col-5 {
     grid-template-columns: repeat(5, 1fr);
   }
-
-  .m-row-span {
-    grid-column-start: 1;
-    grid-column-end: -1;
-  }
 }
 
 /* Large only */
