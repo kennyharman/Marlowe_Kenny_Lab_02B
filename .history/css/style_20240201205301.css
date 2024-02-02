@@ -258,9 +258,7 @@ textarea {
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
-  .header__menu-nav {
-    display: none;
-  }
+
 }
 
 /* Medium only */
@@ -284,10 +282,8 @@ textarea {
   .m-col-5 {
     grid-template-columns: repeat(5, 1fr);
   }
-
-  .m-row-span {
-    grid-column-start: 1;
-    grid-column-end: -1;
+  .header__menu-nav {
+    display: none;
   }
 }
 

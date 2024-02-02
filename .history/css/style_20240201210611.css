@@ -258,9 +258,7 @@ textarea {
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
-  .header__menu-nav {
-    display: none;
-  }
+
 }
 
 /* Medium only */
