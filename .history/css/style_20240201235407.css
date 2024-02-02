@@ -279,9 +279,7 @@ p {
   background-color: rgb(242, 230, 177);
 }
 
-.header,
-.banner,
-.section {
+.page {
   margin: auto;
   width: 65%;
 }
