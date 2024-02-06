@@ -264,6 +264,7 @@ p {
   display: grid;
   margin-top: 2rem;
 }
+
 .col {
   position: relative;
 }
@@ -319,35 +320,13 @@ p {
   color: black;
 }
 
-.image {
-  padding: 0.7rem;
-  margin-bottom: -100px;
-}
-
-.image > img {
-  width: 100%;
-  height: 70%;
-}
-
-.misc-content {
-  margin-top: 1.5rem;
-  margin: 0.7rem;
-  margin-bottom: -2rem;
-}
-
-.misc-content > img {
-  width: 100%;
-  height: 85%;
-}
-
 .affiliates-card {
-  margin: 0.7rem;
-  margin-bottom: 3rem;
+  padding: 0 auto;
 }
 
 .affiliates-card > img {
   width: 100%;
-  height: 85%;;
+  height: 90px;
 }
 
 /* Small only */

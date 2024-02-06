@@ -264,9 +264,6 @@ p {
   display: grid;
   margin-top: 2rem;
 }
-.col {
-  position: relative;
-}
 
 .page__header,
 .banner-header,
@@ -279,6 +276,7 @@ p {
 .footer {
   margin: auto;
   width: 60%;
+  border: solid;
 }
 
 .heading {
@@ -320,18 +318,18 @@ p {
 }
 
 .image {
-  padding: 0.7rem;
-  margin-bottom: -100px;
+  width: 50%;
 }
 
 .image > img {
-  width: 100%;
-  height: 70%;
+  border: solid;
+  width: 10px;
+  height: 10px;
 }
 
 .misc-content {
   margin-top: 1.5rem;
-  margin: 0.7rem;
+  margin-right: 1.5em;
   margin-bottom: -2rem;
 }
 
@@ -341,12 +339,11 @@ p {
 }
 
 .affiliates-card {
-  margin: 0.7rem;
+  margin-right: 1.5em;
   margin-bottom: 3rem;
 }
 
 .affiliates-card > img {
-  width: 100%;
   height: 85%;;
 }
 

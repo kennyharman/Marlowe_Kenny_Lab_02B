@@ -246,6 +246,14 @@ textarea {
 }
 
 /* Our Styling */
+div,
+main,
+section,
+footer,
+header {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 h1,
 h2,
@@ -262,8 +270,9 @@ p {
 
 .row {
   display: grid;
-  margin-top: 2rem;
+  row-gap: 1rem;
 }
+
 .col {
   position: relative;
 }
@@ -307,63 +316,21 @@ p {
 }
 
 .services-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   padding: 0px;
   color: grey;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 23px;
 }
 
 .services-card > h4 {
   color: black;
 }
 
-.image {
-  padding: 0.7rem;
-  margin-bottom: -100px;
-}
-
-.image > img {
-  width: 100%;
-  height: 70%;
-}
-
-.misc-content {
-  margin-top: 1.5rem;
-  margin: 0.7rem;
-  margin-bottom: -2rem;
-}
-
-.misc-content > img {
-  width: 100%;
-  height: 85%;
-}
-
-.affiliates-card {
-  margin: 0.7rem;
-  margin-bottom: 3rem;
-}
-
-.affiliates-card > img {
-  width: 100%;
-  height: 85%;;
-}
-
 /* Small only */
 @media screen and (max-width: 39.9375em) {
-  .page__header,
-.banner-header,
-.page__section,
-.section-services,
-.section-work,
-.section-projects,
-.section-misc,
-.section-affiliates,
-.footer {
-  margin: auto;
-  width: 80%;
-}
   .header__menu-nav {
     display: none;
   }
@@ -375,18 +342,6 @@ p {
   }
   .misc {
     display: none;
-  }
-  .services-card {
-    text-align: left;
-    font-size: 12px;
-    padding: 0px;
-    color: grey;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 15px;
-    padding-top: 20px;
-  }
-  .services-card > h4 {
-    line-height: 0px;
   }
 }
 
