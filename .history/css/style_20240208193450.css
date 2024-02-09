@@ -10,24 +10,13 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-  :root{
-    --green : #25c389;
-    --yellow: #ffb901;
-    --red: #de6262;
-    --blue: #1691bd;
-    --dark-blue: #166ba2;
-    --light-gray: #ebebeb
 
-  }
-
-
-  html {
+html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
   margin-left: -1rem;
   margin-right: -1rem;
-  margin-top: -2rem;
 }
 
 /*
@@ -276,12 +265,10 @@ p {
 .row {
   display: grid;
   margin-top: 2rem;
-  column-gap: 1rem;
 }
 .col {
   position: relative;
   max-height: 100%;
-
 }
 
 .page__header,
@@ -386,6 +373,7 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  margin-left: 1rem;
 }
 
 .misc-content {
@@ -406,7 +394,7 @@ p {
 
 .affiliates-card > img {
   width: 100%;
-  height: 85%;
+  height: 85%;;
 }
 
 .banner-header {
@@ -419,63 +407,12 @@ p {
 }
 
 .page__banner {
-  background-color: var(--light-gray);
-}
-
-.header__menu-nav {
-  display: flex;
-}
-
-.header__menu-nav__item {
-  width: 10rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-}
-
-.page__header {
-  height: 7rem;
-}
-
-.menu {
-  display:flex;
-  justify-content: space-around;
-  height: 80%;
-  width: 80%;
-}
-
-.header__menu-logo {
-  padding-top: 2rem;
-  font-weight: lighter;
-}
-
-
-.page__header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 9rem;
-}
-
-.header__menu-nav__item__image > img {
-  width: 2rem;
-  height: 2rem;
+  background-color: lightgray;
 }
 
 .page__footer {
   background-color: rgb(10, 10, 56);
   color: white;
-}
-
-.section-work {
-  border-bottom: 3px solid;
-  padding-bottom: 2.5rem;
-}
-
-.section-projects {
-  padding-bottom: 2.5rem;
 }
 
 /* Small only */
