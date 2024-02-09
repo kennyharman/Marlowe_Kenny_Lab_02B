@@ -421,10 +421,6 @@ p {
   padding-bottom: 2.5rem;
 }
 
-.section-projects {
-  padding-bottom: 2.5rem;
-}
-
 /* Small only */
 @media screen and (max-width: 39.9375em) {
   .page__header,

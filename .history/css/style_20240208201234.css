@@ -417,12 +417,7 @@ p {
 }
 
 .section-work {
-  border-bottom: 3px solid;
-  padding-bottom: 2.5rem;
-}
-
-.section-projects {
-  padding-bottom: 2.5rem;
+  border-bottom: 1px solid;
 }
 
 /* Small only */

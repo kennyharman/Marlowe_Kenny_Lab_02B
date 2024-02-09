@@ -265,12 +265,11 @@ p {
 .row {
   display: grid;
   margin-top: 2rem;
-  column-gap: 1rem;
+  column-gap: 1.5rem;
 }
 .col {
   position: relative;
   max-height: 100%;
-
 }
 
 .page__header,
@@ -414,15 +413,6 @@ p {
 .page__footer {
   background-color: rgb(10, 10, 56);
   color: white;
-}
-
-.section-work {
-  border-bottom: 3px solid;
-  padding-bottom: 2.5rem;
-}
-
-.section-projects {
-  padding-bottom: 2.5rem;
 }
 
 /* Small only */
