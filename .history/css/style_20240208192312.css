@@ -265,12 +265,11 @@ p {
 .row {
   display: grid;
   margin-top: 2rem;
-  column-gap: 1rem;
 }
 .col {
   position: relative;
   max-height: 100%;
-
+  border: solid;
 }
 
 .page__header,
@@ -416,15 +415,6 @@ p {
   color: white;
 }
 
-.section-work {
-  border-bottom: 3px solid;
-  padding-bottom: 2.5rem;
-}
-
-.section-projects {
-  padding-bottom: 2.5rem;
-}
-
 /* Small only */
 @media screen and (max-width: 39.9375em) {
   .page__header,
@@ -468,9 +458,6 @@ p {
     line-height: 0px;
   }
   .section-misc {
-    display: none;
-  }
-  .section-affiliates {
     display: none;
   }
 }
