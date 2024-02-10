@@ -22,6 +22,11 @@
     --lighter-blue: #42a9cc;
     --lighter-dark-blue: #4589b8;
     --light-gray: #ebebeb;
+    --facebook-blue: #527cc4;
+    --google-red: #e46145;
+    --twitter-blue: #00b0e2;
+    --instagram-pink: #f6679c;
+    --wifi-yellow: #fea501;
     --trans-blue: rgba(25, 178, 222, 0.6);
   }
 
@@ -900,6 +905,7 @@ p {
   flex-wrap: wrap;
   row-gap: 1rem;
   margin-top: -1.5rem;
+  min-width: 100%;
 }
 
 .footer-item-twitter-icon {
@@ -919,6 +925,7 @@ p {
   line-height: 1.5rem;
   padding-left: 2rem;
   width: 60%;
+  min-width: 60%;
   padding-right: 1rem;
 }
 
