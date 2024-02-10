@@ -374,7 +374,6 @@ p {
   color: grey;
   font-family: 'Open Sans', sans-serif;
   line-height: 20px;
-  margin-top: 1.5rem;
 }
 
 .services-card > h4 {
@@ -536,26 +535,22 @@ p {
 
 .fa-lightbulb-o {
   border: solid 2px;
-  padding: 1rem 1.5rem 1rem 1.5rem;
-  color: var(--yellow);
+  padding: 1.5rem;
 }
 
 .fa-picture-o {
   border: solid 2px;
-  padding: 1rem;
-  color: var(--green);
+  padding: 1.5rem;
 }
 
 .fa-cogs {
   border: solid 2px;
-  padding: 1rem;
-  color: var(--red);
+  padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
 .fa-pencil {
   border: solid 2px;
-  padding: 1rem 1.2rem 1rem 1.2rem;
-  color: var(--blue);
+  padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
 .section-work {
