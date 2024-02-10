@@ -535,28 +535,24 @@ p {
 }
 
 .misc-content {
-  width: 100%;
-  height: 20rem;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+  margin: 0.7rem;
+  margin-bottom: -2rem;
 }
 
 .misc-content > img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 85%;
 }
 
 .affiliates-card {
-  width: 100%;
-  height: 8rem;
-  margin-bottom: 2.5rem;
+  margin: 0.7rem;
+  margin-bottom: 3rem;
 }
 
 .affiliates-card > img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 85%;
 }
 
 .banner-header {
@@ -826,7 +822,7 @@ p {
   }
   .services-card {
     display: flex;
-    margin-top: -1.5rem;
+    margin-top: -2rem;
   }
   .service-icon {
     height: 32%;
@@ -910,9 +906,6 @@ p {
   .image-text--file {
     display: none;
   }
-  .image-hide {
-    display: none;
-  }
 }
 
 /* Large only */
@@ -939,9 +932,6 @@ p {
     display: none !important;
   }
   .image-text--file {
-    display: none;
-  }
-  .image-hide {
     display: none;
   }
 }
